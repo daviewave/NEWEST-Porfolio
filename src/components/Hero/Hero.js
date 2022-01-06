@@ -5,9 +5,28 @@ import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
-  <div>
-    Hero
-  </div>
+  <Section row nopadding>
+    <LeftSection>
+      <SectionTitle main center>
+        David Silveira <br />
+        Full Stack Web Developer
+      </SectionTitle>
+      <SectionText>
+        A unique background with a bachelor's degree in Neuroscience from Umass
+        Amherst and full stack engineering certificate from Columbia University.
+        Special ability to think about problems logically debug issues and
+        enhance user experiece on the web.
+      </SectionText>
+      <Button
+        onClick={() =>
+          (window.location =
+            "https://search.brave.com/search?q=brave+search&source=desktop")
+        }
+      >
+        About Me
+      </Button>
+    </LeftSection>
+  </Section>
 );
 
 export default Hero;
