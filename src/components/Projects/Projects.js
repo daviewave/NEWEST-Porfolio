@@ -19,14 +19,14 @@ const Projects = () => (
               <HeaderThree title>{title}</HeaderThree>
             </TitleContent>
             <CardInfo>{description}</CardInfo>
-            {/* <div>
+            <div>
               <TitleContent>Stack</TitleContent>
               <TagList>
                 {tags.map((tag, i) => (
                   <Tag key={i}>{tag}</Tag>
                 ))}
               </TagList>
-            </div> */}
+            </div>
             <UtilityList>
               {/* This will give us the link to the code of the project */}
               <ExternalLinks href={visit}>Code</ExternalLinks>
