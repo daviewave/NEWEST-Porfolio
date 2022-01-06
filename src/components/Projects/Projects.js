@@ -9,9 +9,27 @@ const Projects = () => (
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      {currentProjects.map((project) => (
-        <div>{project.title}</div>
-      ))}
+      {/* by putting the parameter in curly braces we are 'destructuring' our
+      project objects so we can then just call them as they are in the code */}
+      {currentProjects.map(
+        ({ id, image, title, description, tags, source, visit }) => (
+          <BlogCard key={id}>
+            <Img src={image} />
+            <TitleContent>
+              <HeaderThree title>{title}</HeaderThree>
+            </TitleContent>
+            <CardInfo>{description}</CardInfo>
+            <div>
+              <TitleContent>Stack</TitleContent>
+              <TagList>
+                {tags.map((tag, i) => (
+                  <Tag key={i}>{tag}</Tag>
+                ))}
+              </TagList>
+            </div>
+          </BlogCard>
+        )
+      )}
     </GridContainer>
   </Section>
 );

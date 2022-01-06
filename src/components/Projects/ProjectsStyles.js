@@ -73,10 +73,11 @@ export const CardInfo = styled.p`
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 25px;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
-  
-}
+    padding: 0.3rem;
+  }
 `;
 
 
