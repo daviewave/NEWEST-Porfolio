@@ -39,6 +39,16 @@ export const currentProjects = [
     visit: "https://github.com/daviewave/Budget-Manager",
     id: 3,
   },
+  {
+    title: "Note-Taker",
+    description:
+      "Ever have a random thought that you know you will forget if you don't write it down? Note-taker is here to save the day",
+    image: "/images/Budget-photo.jpg",
+    tags: ["MySql", "Sequalize", "Express.js", "Handlebars.js"],
+    source: "https://damp-sierra-23454.herokuapp.com/",
+    visit: "https://github.com/daviewave/Note-Taker",
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
