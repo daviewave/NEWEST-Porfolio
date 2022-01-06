@@ -20,7 +20,7 @@ import {
 
 const Footer = () => {
   return (
-    <FooterWrapper>
+    <FooterWrapper id="footer">
       <LinkList>
         <LinkColumn>
           <LinkTitle>Phone</LinkTitle>
@@ -30,23 +30,20 @@ const Footer = () => {
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="email:daviewave@gmail.com">617-459-5248</LinkItem>
         </LinkColumn>
+        <SocialIconsContainer>
+          <SocialContainer>
+            <SocialIcons href="https://github.com/daviewave">
+              <AiFillGithub size="3rem" />
+            </SocialIcons>
+            <SocialIcons href="https://www.linkedin.com/in/david-silveira-03921821b/">
+              <AiFillLinkedin size="3rem" />
+            </SocialIcons>
+            <SocialIcons href="https://twitter.com/DavidSilveira_3">
+              <AiFillTwitterCircle size="3rem" />
+            </SocialIcons>
+          </SocialContainer>
+        </SocialIconsContainer>
       </LinkList>
-      <SocialIconsContainer>
-        <CompanyContainer>
-          <Slogan>Creating a better web, one project at a time</Slogan>
-        </CompanyContainer>
-        <SocialContainer>
-          <SocialIcons href="https://github.com">
-            <AiFillGithub size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://linkedin.com">
-            <AiFillLinkedin size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://twitter.com">
-            <AiFillTwitterCircle size="3rem" />
-          </SocialIcons>
-        </SocialContainer>
-      </SocialIconsContainer>
     </FooterWrapper>
   );
 };

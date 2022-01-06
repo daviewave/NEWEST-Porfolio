@@ -15,33 +15,33 @@ export const FooterWrapper = styled.section`
 `
 
 export const LinkItem = styled.a`
-	font-size: 18px;
-	line-height: 30px;
-	color: rgba(255, 255, 255, 0.75);
-	margin-bottom: 16px;
-	transition: .3s ease;
-	position: relative;
-	left: 0;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 16px;
+  transition: 0.3s ease;
+  position: relative;
+  left: 0;
 
-	&:hover {
-		color: #fff;
-		left: 6px;
-	}
+  &:hover {
+    color: #fff;
+    left: 6px;
+  }
 
-	@media ${props => props.theme.breakpoints.md} {
-		font-size: 16px;
-		line-height: 28px;
-		display: flex;
-	}
+  @media ${(props) => props.theme.breakpoints.md} {
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+  }
 
-	@media ${props => props.theme.breakpoints.sm} {
-		font-size: 8px;
-		line-height: 14px;
-		margin-bottom: 8px;
-		display: flex;
-		align-items: center;
-	}
-`
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 8px;
+    line-height: 14px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+  }
+`;
 
 export const SocialIconsContainer = styled.div`
 max-width: 1040px;
