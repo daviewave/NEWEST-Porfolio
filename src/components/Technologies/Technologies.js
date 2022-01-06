@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-  DiCloud9,
-  DiCreativecommons,
-  DiDatabase,
-  DiFirebase,
-  DiReact,
-  DiZend,
-} from "react-icons/di";
+import { DiCloud9, DiDatabase, DiReact } from "react-icons/di";
 import {
   Section,
   SectionDivider,

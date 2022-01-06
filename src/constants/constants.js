@@ -57,3 +57,10 @@ export const TimeLineData = [
     text: "Graduated from Umass with a bachelors degree in Psychology with a specialization in neuroscience and completed a coding course at Columbia University to become a certified full stack engineer",
   },
 ];
+
+export const accomplishments = [
+  { number: 2, text: "Degrees/Certifcations" },
+  { number: 28, text: "GitHub Repositories" },
+  { number: 5, text: "Coding Languages" },
+  { number: 1, text: "Research Projects" },
+];
