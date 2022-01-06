@@ -17,14 +17,7 @@ const Hero = (props) => (
         Special ability to think about problems logically, debug issues and
         enhance user experiece on the web.
       </SectionText>
-      <Button
-        onClick={() =>
-          (window.location =
-            "https://search.brave.com/search?q=brave+search&source=desktop")
-        }
-      >
-        About Me
-      </Button>
+      <Button onClick={() => (window.location = "#about")}>Contact Me</Button>
     </LeftSection>
   </Section>
 );
