@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
         A unique background with a bachelor's degree in Neuroscience from Umass
         Amherst and full stack engineering certificate from Columbia University.
-        Special ability to think about problems logically debug issues and
+        Special ability to think about problems logically, debug issues and
         enhance user experiece on the web.
       </SectionText>
       <Button
