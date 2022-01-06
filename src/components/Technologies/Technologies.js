@@ -30,7 +30,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with: <br />- React.js
-            <br /> - NextJS <br /> - Handlebars
+            <br /> - NextJS <br /> - Handlebars.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
