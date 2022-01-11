@@ -57,16 +57,17 @@ const Timeline = () => {
         I earned an undergraduate Bachelor’s Degree in Neuroscience from the
         University of Massachusetts Amherst in the Spring of 2021, and in
         January of 2022 earned a certificate in full stack web development from
-        the University of Columbia. Some of the skills I have acquired include;
-        programming in Java + JavaScript + C languages, HTML frameworks, styling
-        mechanisms with CSS and Bootstrap, creating applications with React.js
-        and nextJS, working with backend databases MySQL + NoSQL + mongo +
-        apollo + express to connect to the user experience and more. I
-        collaberated in the creation of several applications that have resulted
-        very useful products, such as an app that returns recipes based on
-        searches, a drug interaction app, and a property swap app. I am eager
-        and excited to leverage my skills and abilities to help build a better a
-        better web experience.
+        Columbia University. <br />
+        Some of the skills I have acquired include; programming in Java +
+        JavaScript + C languages, HTML frameworks, styling mechanisms with CSS
+        and Bootstrap, creating applications with React.js and nextJS, working
+        with backend databases MySQL + NoSQL + mongo + apollo + express to
+        connect to the user experience and more. <br />I collaborated in the
+        creation of several applications that have resulted in very useful
+        products, such as an app that returns recipes based on searches, a drug
+        interaction app, and a property swap app. I am eager and excited to
+        leverage my skills and abilities to help build a better a better web
+        experience.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         {/* TimeLineData was defined as a constant and imported above */}
