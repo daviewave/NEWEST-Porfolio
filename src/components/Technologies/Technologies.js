@@ -20,8 +20,8 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technolgies</SectionTitle>
     <SectionText>
-      I have worked with a variety of technologies in both the front end web
-      UX/UI development and also through the backend server development
+      I have worked with a variety of technologies in both the front end & UX/UI
+      development and also through the backend server development.
     </SectionText>
     <List>
       <ListItem>
@@ -30,7 +30,8 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with: <br />- React.js
-            <br /> - NextJS <br /> - Handlebars.js
+            <br /> - NextJS <br /> - Handlebars.js <br /> - Bootstrap <br /> -
+            CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -39,7 +40,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with: <br />- Node.js
+            Experience with: <br />- Node.js <br />- Java <br />- C
             <br /> - MySql <br /> - NoSql <br /> - Mongo
             <br /> - Express.js <br /> - Apollo <br /> - graphql
           </ListParagraph>

@@ -12,10 +12,10 @@ const Hero = (props) => (
         Full Stack Web Developer
       </SectionTitle>
       <SectionText>
-        A unique background with a bachelor's degree in Neuroscience from Umass
-        Amherst and full stack engineering certificate from Columbia University.
-        Special ability to think about problems logically, debug issues and
-        enhance user experiece on the web.
+        Full stack web developer leveraging a neuroscience degree and computer
+        science minor, allowing for a unique understanding of the user web
+        experience, resulting in more proficient development of everyday
+        programs and applications.
       </SectionText>
       <Button onClick={() => (window.location = "#footer")}>Contact Me</Button>
     </LeftSection>
