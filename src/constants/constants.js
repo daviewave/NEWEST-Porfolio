@@ -52,8 +52,8 @@ export const currentProjects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Graduated High School, with honors" },
-  { year: 2018, text: "Entered UMass Amherst to begin studying Psychology" },
+  { year: 2017, text: "Graduated High School, with honors." },
+  { year: 2018, text: "Entered UMass Amherst to begin studying Psychology." },
   {
     year: 2019,
     text: "Began a concentration in Neuroscience within my Psychology major. A requirement to fufill the Neuroscience specialty could be fufilled by either taking Intro to calculus or Intro to computer science. I chose the latter.",
@@ -64,7 +64,7 @@ export const TimeLineData = [
   },
   {
     year: 2021,
-    text: "Graduated from UMass with a bachelors degree in Psychology, with a specialization in Neuroscience. and completed a coding course at Columbia University to become a certified full stack engineer.",
+    text: "Graduated from UMass with a Bachelors Degree in Neuroscience. In order to further develop and solidify my coding skills, I enrolled and completed a full time coding bootcamp course through Columbia University to become a certified full stack engineer.",
   },
 ];
 

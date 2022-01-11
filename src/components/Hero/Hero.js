@@ -12,8 +12,8 @@ const Hero = (props) => (
         Full Stack Web Developer
       </SectionTitle>
       <SectionText>
-        Full stack web developer leveraging a neuroscience degree and computer
-        science minor, allowing for a unique understanding of the user web
+        Full stack web developer leveraging a Neuroscience degree and Computer
+        Science minor, allowing for a unique understanding of the user web
         experience, resulting in more proficient development of everyday
         programs and applications.
       </SectionText>
