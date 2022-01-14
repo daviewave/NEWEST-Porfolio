@@ -18,6 +18,14 @@ const Hero = (props) => (
         programs and applications.
       </SectionText>
       <Button onClick={() => (window.location = "#footer")}>Contact Me</Button>
+      <Button
+        onClick={() =>
+          (window.location =
+            "/file:///C:/Users/David/Downloads/current-resume.docx.pdf")
+        }
+      >
+        Resumé
+      </Button>
     </LeftSection>
   </Section>
 );
