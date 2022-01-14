@@ -20,11 +20,11 @@ const Hero = (props) => (
       <Button onClick={() => (window.location = "#footer")}>Contact Me</Button>
       <Button
         onClick={() =>
-          (location.href =
+          (window.location.href =
             "file:///C:/Users/David/Downloads/current-resume.docx.pdf")
         }
       >
-        Resumé
+        Résumé
       </Button>
     </LeftSection>
   </Section>
