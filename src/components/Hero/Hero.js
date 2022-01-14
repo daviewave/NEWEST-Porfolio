@@ -20,8 +20,8 @@ const Hero = (props) => (
       <Button onClick={() => (window.location = "#footer")}>Contact Me</Button>
       <Button
         onClick={() =>
-          (window.location =
-            "/file:///C:/Users/David/Downloads/current-resume.docx.pdf")
+          (location.href =
+            "file:///C:/Users/David/Downloads/current-resume.docx.pdf")
         }
       >
         Resumé
