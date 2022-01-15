@@ -32,6 +32,12 @@ const Footer = () => {
             daviewave@gmail.com
           </LinkItem>
         </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>Résumé</LinkTitle>
+          <LinkItem href="file:///C:/Users/David/Downloads/current-resume.docx.pdf">
+            file:///C:/Users/David/Downloads/current-resume.docx.pdf
+          </LinkItem>
+        </LinkColumn>
         <SocialIconsContainer>
           <SocialContainer>
             <SocialIcons href="https://github.com/daviewave">
