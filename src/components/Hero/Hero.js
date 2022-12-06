@@ -9,7 +9,7 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
         David Silveira <br />
-        Full Stack Web Developer
+        Full Stack Software Engineer
       </SectionTitle>
       <SectionText>
         Full stack web developer leveraging a Neuroscience degree and Computer
