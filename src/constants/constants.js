@@ -29,16 +29,6 @@ export const currentProjects = [
     visit: "https://github.com/daviewave/Prop-Swapper",
     id: 2,
   },
-  {
-    title: "Budget-Manager",
-    description:
-      "Can never keep track of your expenses? The budget manager is here to make sure you never lose track of another penny",
-    image: "/images/day-planner-photo.jpg",
-    tags: ["NoSql", "Mongo", "Mongoose"],
-    source: "https://budget-manager-2v6h505io-daviewave.vercel.app/",
-    visit: "https://github.com/daviewave/Budget-Manager",
-    id: 3,
-  },
 ];
 
 export const TimeLineData = [
