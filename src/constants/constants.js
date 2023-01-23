@@ -1,5 +1,15 @@
 export const currentProjects = [
   {
+    title: "E-commerce Sample Site",
+    description:
+      "A sample e-commerce website deployed on aws elastic beanstalk",
+    image: "/images/Ecommerce.png",
+    tags: ["Django", "Python", "AWS"],
+    source: "http://ecommerce-django-dev.us-east-1.elasticbeanstalk.com/",
+    visit: "https://github.com/daviewave/ecommerce-course",
+    id: 0,
+  },
+  {
     title: "Foode",
     description:
       "Enter a the ingredients you currently have, and instantly get recipes for meals with the ingredients you have",

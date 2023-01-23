@@ -12,10 +12,7 @@ const Hero = (props) => (
         Full Stack Software Engineer
       </SectionTitle>
       <SectionText>
-        Full stack web developer leveraging a Neuroscience degree and Computer
-        Science minor, allowing for a unique understanding of the user web
-        experience, resulting in more proficient development of everyday
-        programs and applications.
+        Full stack software engineer with a year of professional experience where I expanded my knowledge of technologies I had previous known like javascript, ReactJS, git,
       </SectionText>
       <Button onClick={() => (window.location = "#footer")}>Contact Me</Button>
     </LeftSection>
