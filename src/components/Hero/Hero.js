@@ -11,9 +11,9 @@ const Hero = (props) => (
         David Silveira <br />
         Full Stack Software Engineer
       </SectionTitle>
-      <SectionText>
-        Full stack software engineer with a year of professional experience where I expanded my knowledge of technologies I had previous known like javascript, ReactJS, git,
-      </SectionText>
+      {/* <SectionText>
+        Full stack software engineer
+      </SectionText> */}
       <Button onClick={() => (window.location = "#footer")}>Contact Me</Button>
     </LeftSection>
   </Section>
