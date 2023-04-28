@@ -3,9 +3,9 @@ import {
   AiFillGithub,
   AiFillTwitterCircle,
   AiFillLinkedin,
-} from "react-icons/ai";
+} from 'react-icons/ai';
 
-import { SocialIcons } from "../Header/HeaderStyles";
+import { SocialIcons } from '../Header/HeaderStyles';
 import {
   CompanyContainer,
   FooterWrapper,
@@ -16,28 +16,30 @@ import {
   Slogan,
   SocialContainer,
   SocialIconsContainer,
-} from "./FooterStyles";
+} from './FooterStyles';
 
 const Footer = () => {
   return (
-    <FooterWrapper id="footer">
+    <FooterWrapper id="contact">
       <LinkList>
+        {/* <div style={{ display: 'flex' }}> */}
         <LinkColumn>
           <LinkTitle>Phone</LinkTitle>
           <LinkItem href="phone #:617-459-5248">617-459-5248</LinkItem>
         </LinkColumn>
-        <LinkColumn>
+        <LinkColumn style={{ marginLeft: '35%', marginRight: '20%' }}>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="email:daviewave@gmail.com">
-            daviewave@gmail.com
+            davidsilveira.3.djs@gmail.com
           </LinkItem>
         </LinkColumn>
-        <LinkColumn>
+        <LinkColumn style={{ marginLeft: '100%' }}>
           <LinkTitle>Résumé</LinkTitle>
-          <LinkItem href="file:///C:/Users/David/Downloads/current-resume.docx.pdf">
-            file:///C:/Users/David/Downloads/current-resume.docx.pdf
+          <LinkItem href="/David_Silveira-2023.pdf">
+            David Silveira -- 2023
           </LinkItem>
         </LinkColumn>
+
         <SocialIconsContainer>
           <SocialContainer>
             <SocialIcons href="https://github.com/daviewave">
