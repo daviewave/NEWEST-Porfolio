@@ -1,7 +1,23 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import {
+  CarouselButton,
+  CarouselButtonDot,
+  CarouselButtons,
+  CarouselContainer,
+  CarouselItem,
+  CarouselItemImg,
+  CarouselItemText,
+  CarouselItemTitle,
+  CarouselMobileScrollNode,
+  ScrollableSectionText,
+} from './TimeLineStyles';
+import {
+  TimlineSection,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -11,7 +27,9 @@ const Timeline = () => {
   const carouselRef = useRef();
 
   const scroll = (node, left) => {
-    return node.scrollTo({ left, behavior: "smooth" });
+    if (node !== null) {
+      return node.scrollTo({ left, behavior: 'smooth' });
+    }
   };
 
   //accepts the click event and index as params
@@ -47,29 +65,13 @@ const Timeline = () => {
       scroll(carouselRef.current, 0);
     };
 
-    window.addEventListener("resize", handleResize);
+    window.addEventListener('resize', handleResize);
   }, []);
 
   return (
-    <Section id="about">
-      <SectionTitle>How I Ended Up Here</SectionTitle>
-      <SectionText>
-        I earned an undergraduate Bachelor’s Degree in Neuroscience from the
-        University of Massachusetts Amherst in the Spring of 2021, and in
-        January of 2022 earned a certificate in full stack web development from
-        Columbia University. <br />
-        <br />
-        Some of the skills I have acquired include; programming in Java +
-        JavaScript + C languages, HTML frameworks, styling mechanisms with CSS
-        and Bootstrap, creating applications with React.js and nextJS, working
-        with backend databases MySQL + NoSQL + mongo + apollo + express to
-        connect to the user experience and more. <br />
-        <br />I collaborated in the creation of several applications that have
-        resulted in very useful products, such as an app that returns recipes
-        based on searches, a drug interaction app, and a property swap app. I am
-        eager and excited to leverage my skills and abilities to help build a
-        better a better web experience.
-      </SectionText>
+    <TimlineSection nopadding id="about">
+      <SectionDivider />
+      <SectionTitle timeline>How I Ended Up Here</SectionTitle>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         {/* TimeLineData was defined as a constant and imported above */}
         <>
@@ -140,8 +142,7 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
-    </Section>
+    </TimlineSection>
   );
 };
 
