@@ -1,0 +1,18 @@
+module.exports = {
+    patterns: ['**/*.{js,jsx,ts,tsx,css,scss,html,json,md}'],
+    arrowParens: 'always',
+    bracketSpacing: true,
+    endOfLine: 'auto',
+    htmlWhitespaceSensitivity: 'css',
+    jsxBracketSameLine: false,
+    jsxSingleQuote: false,
+    printWidth: 80,
+    proseWrap: 'preserve',
+    quoteProps: 'as-needed',
+    requirePragma: false,
+    semi: true,
+    singleQuote: true,
+    tabWidth: 2,
+    trailingComma: 'es5',
+    useTabs: false,
+  };
