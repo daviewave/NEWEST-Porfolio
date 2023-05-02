@@ -1,9 +1,22 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
+import {
+  AiFillGithub,
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiFillTwitterCircle,
+} from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
+import {
+  Container,
+  Div1,
+  Div2,
+  Div3,
+  NavLink,
+  SocialIcons,
+  Span,
+} from './HeaderStyles';
 
 const Header = () => (
   <Container>
@@ -11,10 +24,10 @@ const Header = () => (
       <Link href="/">
         <a
           style={{
-            display: "flex",
-            alignItems: "center",
-            color: "white",
-            marginBottom: "20px",
+            display: 'flex',
+            alignItems: 'center',
+            color: 'white',
+            marginBottom: '20px',
           }}
         >
           <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
@@ -45,9 +58,9 @@ const Header = () => (
       <SocialIcons href="https://www.linkedin.com/in/david-silveira-03921821b/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://twitter.com/DavidSilveira_3">
+      {/* <SocialIcons href="https://twitter.com/DavidSilveira_3">
         <AiFillTwitterCircle size="3rem" />
-      </SocialIcons>
+      </SocialIcons> */}
     </Div3>
   </Container>
 );
