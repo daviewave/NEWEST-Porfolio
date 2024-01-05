@@ -1,21 +1,21 @@
 import React from 'react';
-import { DiCloud9, DiDatabase, DiReact } from "react-icons/di";
+import { DiCloud9, DiDatabase, DiReact } from 'react-icons/di';
 import {
-  Section,
+  TechSection,
   SectionDivider,
   SectionText,
   SectionTitle,
-} from "../../styles/GlobalComponents";
+} from '../../styles/GlobalComponents';
 import {
   List,
   ListContainer,
   ListItem,
   ListParagraph,
   ListTitle,
-} from "./TechnologiesStyles";
+} from './TechnologiesStyles';
 
 const Technologies = () => (
-  <Section id="tech">
+  <TechSection id="tech">
     <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
@@ -26,7 +26,13 @@ const Technologies = () => (
     <ListItem>
         {/* <DiDatabase size="3rem" /> */}
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <div style={{ display: 'flex' }}>
+            <ListTitle>Back-End</ListTitle> <br />
+            <div style={{ marginLeft: '3%' }}>
+              <DiDatabase size="3rem" />
+            </div>
+          </div>
+
           <ListParagraph>
             <li>- NextJS</li>
             <li>- ReactJS</li>
@@ -83,7 +89,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
     </List>
-  </Section>
+  </TechSection>
 );
 
 export default Technologies;

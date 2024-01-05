@@ -1,7 +1,23 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import {
+  CarouselButton,
+  CarouselButtonDot,
+  CarouselButtons,
+  CarouselContainer,
+  CarouselItem,
+  CarouselItemImg,
+  CarouselItemText,
+  CarouselItemTitle,
+  CarouselMobileScrollNode,
+  ScrollableSectionText,
+} from './TimeLineStyles';
+import {
+  TimlineSection,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -11,7 +27,9 @@ const Timeline = () => {
   const carouselRef = useRef();
 
   const scroll = (node, left) => {
-    return node.scrollTo({ left, behavior: "smooth" });
+    if (node !== null) {
+      return node.scrollTo({ left, behavior: 'smooth' });
+    }
   };
 
   //accepts the click event and index as params
@@ -47,7 +65,7 @@ const Timeline = () => {
       scroll(carouselRef.current, 0);
     };
 
-    window.addEventListener("resize", handleResize);
+    window.addEventListener('resize', handleResize);
   }, []);
 
   return (

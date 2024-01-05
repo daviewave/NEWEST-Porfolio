@@ -3,9 +3,9 @@ import {
   AiFillGithub,
   AiFillTwitterCircle,
   AiFillLinkedin,
-} from "react-icons/ai";
+} from 'react-icons/ai';
 
-import { SocialIcons } from "../Header/HeaderStyles";
+import { SocialIcons } from '../Header/HeaderStyles';
 import {
   CompanyContainer,
   FooterWrapper,
@@ -16,19 +16,20 @@ import {
   Slogan,
   SocialContainer,
   SocialIconsContainer,
-} from "./FooterStyles";
+} from './FooterStyles';
 
 const Footer = () => {
   return (
-    <FooterWrapper id="footer">
+    <FooterWrapper id="contact">
       <LinkList>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="email:daviewave@gmail.com">
             davidsilveira.3.djs@gmail.com
+            davidsilveira.3.djs@gmail.com
           </LinkItem>
         </LinkColumn>
-        <LinkColumn>
+        <LinkColumn style={{ marginLeft: '100%' }}>
           <LinkTitle>Résumé</LinkTitle>
           <LinkItem href="/images/DavidSilveira.pdf">
             David_Silveira.pdf
@@ -47,7 +48,9 @@ const Footer = () => {
               <AiFillLinkedin size="3rem" />
             </SocialIcons>
             {/* <SocialIcons href="https://twitter.com/DavidSilveira_3">
+            {/* <SocialIcons href="https://twitter.com/DavidSilveira_3">
               <AiFillTwitterCircle size="3rem" />
+            </SocialIcons> */}
             </SocialIcons> */}
           </SocialContainer>
         </SocialIconsContainer>
