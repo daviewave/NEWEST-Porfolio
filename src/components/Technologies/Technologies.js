@@ -20,29 +20,11 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I have worked with a variety of technologies in the software engineering
-      field, focusing on web development, data analysis, and machine learning.
+      As a full stack developer I have experience with a wide range of technologies spanning across the front-end, back-end, dev-ops, and artificial intelligence fields.
     </SectionText>
     <List>
-      <ListItem>
-        <ListContainer>
-          <div style={{ display: 'flex' }}>
-            <ListTitle>Front-End</ListTitle> <br />
-            <div style={{ marginLeft: '3%' }}>
-              <DiReact size="3rem" />
-            </div>
-          </div>
-
-          <ListParagraph>
-            - React.js
-            <br />- JavaScript
-            <br />- CSS
-            <br />- HTML
-            <br />- Material-UI
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
+    <ListItem>
+        {/* <DiDatabase size="3rem" /> */}
         <ListContainer>
           <div style={{ display: 'flex' }}>
             <ListTitle>Back-End</ListTitle> <br />
@@ -52,51 +34,57 @@ const Technologies = () => (
           </div>
 
           <ListParagraph>
-            - Python
-            <br />- Django
-            <br />- Django Rest Framework
-            <br />- SQL
-            <br />- Postgres
-            <br />- Java
-            <br />- C
-            <br />- Data Structures
-            <br />- Shell Scripting
-            <br />- R
+            <li>- NextJS</li>
+            <li>- ReactJS</li>
+            <li>- MaterialUI</li>
+            <li>- Typescript</li>
+            <li>- Javascript</li>
+            <li>- Figma + Balsamiq</li>
+            <li>- CSS</li>
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      
+      <ListItem>
+        {/* <DiDatabase size="3rem" /> */}
+        <ListContainer>
+          <ListTitle>Back-End</ListTitle>
+          <ListParagraph>
+            <li>- Django</li>
+            <li>- Node.js</li>
+            <li>- Python</li>
+            <li>- REST API</li>
+            <li>- Mongo</li>
+            <li>- Flask</li>
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
+        {/* <DiCloud9 size="3rem" /> */}
         <ListContainer>
-          <div style={{ display: 'flex' }}>
-            <ListTitle>DevOps</ListTitle>
-            <div style={{ marginLeft: '3%' }}>
-              <DiCloud9 size="3rem" />
-            </div>
-          </div>
-
+          <ListTitle>Devops</ListTitle>
           <ListParagraph>
-            - Linux
-            <br />- Docker
-            <br />- Node.js
-            <br />- Git
+            <li>- AWS</li>
+            <li>- Docker</li>
+            <li>- Linux</li>
+            <li>- Nginx</li>
+            <li>- Ubunut</li>
+            <li>- Git</li>
+            <li>- Scripting</li>
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
+        {/* <DiCloud9 size="3rem" /> */}
         <ListContainer>
-          <div style={{ display: 'flex' }}>
-            <ListTitle>ML & Others</ListTitle>
-            <div style={{ marginLeft: '3%' }}>
-              <DiReact size="3rem" />
-            </div>
-          </div>
-
+          <ListTitle>A.I</ListTitle>
           <ListParagraph>
-            - GPT Models
-            <br />- Transformer Models
-            <br />- Word2Vec
-            <br />- Embeddings
-            <br />- Reinforcement Learning
+            <li>- PyTorch</li>
+            <li>- PyTensor</li>
+            <li>- Whispr</li>
+            <li>- Llama</li>
+            <li>- GPT</li>
+            <li>- PyTorch</li>
           </ListParagraph>
         </ListContainer>
       </ListItem>
