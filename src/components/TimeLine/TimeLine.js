@@ -14,6 +14,7 @@ import {
 } from './TimeLineStyles';
 import {
   TimlineSection,
+  Section,
   SectionDivider,
   SectionText,
   SectionTitle,
