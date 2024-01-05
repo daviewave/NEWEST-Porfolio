@@ -22,23 +22,24 @@ const Footer = () => {
   return (
     <FooterWrapper id="contact">
       <LinkList>
+        {/* <div style={{ display: 'flex' }}> */}
         <LinkColumn>
+          <LinkTitle>Phone</LinkTitle>
+          <LinkItem href="phone #:617-459-5248">617-459-5248</LinkItem>
+        </LinkColumn>
+        <LinkColumn style={{ marginLeft: '35%', marginRight: '20%' }}>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="email:daviewave@gmail.com">
-            davidsilveira.3.djs@gmail.com
             davidsilveira.3.djs@gmail.com
           </LinkItem>
         </LinkColumn>
         <LinkColumn style={{ marginLeft: '100%' }}>
           <LinkTitle>Résumé</LinkTitle>
-          <LinkItem href="/images/DavidSilveira.pdf">
-            David_Silveira.pdf
+          <LinkItem href="/David_Silveira-2023.pdf">
+            David Silveira -- 2023
           </LinkItem>
         </LinkColumn>
-        {/* <LinkColumn>
-          <LinkTitle>Phone</LinkTitle>
-          <LinkItem href="phone #:617-459-5248">617-459-5248</LinkItem>
-        </LinkColumn> */}
+
         <SocialIconsContainer>
           <SocialContainer>
             <SocialIcons href="https://github.com/daviewave">
@@ -48,9 +49,7 @@ const Footer = () => {
               <AiFillLinkedin size="3rem" />
             </SocialIcons>
             {/* <SocialIcons href="https://twitter.com/DavidSilveira_3">
-            {/* <SocialIcons href="https://twitter.com/DavidSilveira_3">
               <AiFillTwitterCircle size="3rem" />
-            </SocialIcons> */}
             </SocialIcons> */}
           </SocialContainer>
         </SocialIconsContainer>
