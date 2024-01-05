@@ -26,9 +26,16 @@ export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
-  width: 400px;
+  width: 100%;
+  // border-radius: 10px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+  }
+  // on hover
+  &:hover {
+    transform: scale(1.02);
+    transition: all 0.3s ease-out;
+    cursor: pointer;
   }
 `;
 export const TitleContent = styled.div`
@@ -106,6 +113,7 @@ export const TagList = styled.ul`
 display: flex;
 justify-content: space-around;
 padding: 2rem;
+gap: 1rem;
 `
 export const Tag = styled.li`
 color: #d8bfbf;

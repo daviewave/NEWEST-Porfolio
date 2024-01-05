@@ -45,9 +45,9 @@ const Header = () => (
       <SocialIcons href="https://www.linkedin.com/in/david-silveira-03921821b/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://twitter.com/DavidSilveira_3">
+      {/* <SocialIcons href="https://twitter.com/DavidSilveira_3">
         <AiFillTwitterCircle size="3rem" />
-      </SocialIcons>
+      </SocialIcons> */}
     </Div3>
   </Container>
 );

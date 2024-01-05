@@ -12,10 +12,8 @@ const Hero = (props) => (
         Full Stack Web Developer
       </SectionTitle>
       <SectionText>
-        Full stack web developer leveraging a Neuroscience degree and Computer
-        Science minor, allowing for a unique understanding of the user web
-        experience, resulting in more proficient development of everyday
-        programs and applications.
+        As a seasoned full-stack web developer with a background in Neuroscience and a Computer Science minor, I offer a unique perspective on user web experiences, honed through professional experience in developing enterprise applications. My strong problem-solving skills and keen sense of timing enable me to meet project deadlines effectively, balancing a clear vision of broader objectives with meticulous attention to detail for innovative strategy implementation.
+
       </SectionText>
       <Button onClick={() => (window.location = "#footer")}>Contact Me</Button>
     </LeftSection>

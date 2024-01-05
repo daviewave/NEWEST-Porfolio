@@ -20,38 +20,65 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I have worked with a variety of technologies in both the front end & UX/UI
-      development, and also through the backend server development.
+      As a full stack developer I have experience with a wide range of technologies spanning across the front-end, back-end, dev-ops, and artificial intelligence fields.
     </SectionText>
     <List>
-      <ListItem>
-        <DiReact size="3rem" />
+    <ListItem>
+        {/* <DiDatabase size="3rem" /> */}
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with: <br />- React.js
-            <br /> - NextJS <br /> - Handlebars.js <br /> - Bootstrap <br /> -
-            CSS
+            <li>- NextJS</li>
+            <li>- ReactJS</li>
+            <li>- MaterialUI</li>
+            <li>- Typescript</li>
+            <li>- Javascript</li>
+            <li>- Figma + Balsamiq</li>
+            <li>- CSS</li>
           </ListParagraph>
         </ListContainer>
       </ListItem>
+      
       <ListItem>
-        <DiDatabase size="3rem" />
+        {/* <DiDatabase size="3rem" /> */}
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with: <br />- Node.js <br />- Java <br />- C
-            <br /> - MySql <br /> - NoSql <br /> - Mongo
-            <br /> - Express.js <br /> - Apollo <br /> - graphql
+            <li>- Django</li>
+            <li>- Node.js</li>
+            <li>- Python</li>
+            <li>- REST API</li>
+            <li>- Mongo</li>
+            <li>- Flask</li>
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiCloud9 size="3rem" />
+        {/* <DiCloud9 size="3rem" /> */}
         <ListContainer>
-          <ListTitle>UX/UI</ListTitle>
+          <ListTitle>Devops</ListTitle>
           <ListParagraph>
-            Experience with: <br />- Figma
+            <li>- AWS</li>
+            <li>- Docker</li>
+            <li>- Linux</li>
+            <li>- Nginx</li>
+            <li>- Ubunut</li>
+            <li>- Git</li>
+            <li>- Scripting</li>
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        {/* <DiCloud9 size="3rem" /> */}
+        <ListContainer>
+          <ListTitle>A.I</ListTitle>
+          <ListParagraph>
+            <li>- PyTorch</li>
+            <li>- PyTensor</li>
+            <li>- Whispr</li>
+            <li>- Llama</li>
+            <li>- GPT</li>
+            <li>- PyTorch</li>
           </ListParagraph>
         </ListContainer>
       </ListItem>

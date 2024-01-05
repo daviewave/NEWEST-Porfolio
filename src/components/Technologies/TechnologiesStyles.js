@@ -29,10 +29,12 @@ export const MainImage = styled.img`
 
 export const List = styled.ul`
   list-style-type: none;
-  display: grid;
+  display: flex;
+
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+  gap: 15%;
   margin: 3rem 0;
+
   
   @media ${props => props.theme.breakpoints.lg}{
     margin: 64px 0;
@@ -67,6 +69,7 @@ export const ListTitle = styled.h4`
   letter-spacing: 0.02em;
   color: #FFFFFF;
   margin-bottom: 8px;
+  white-space: nowrap;
 
 @media ${props => props.theme.breakpoints.md}{
   font-size: 24px;
@@ -85,6 +88,7 @@ export const ListParagraph = styled.p`
   font-size: 18px;
   line-height: 30px;
   color: rgba(255, 255, 255, 0.75);
+  // margin: 0 auto;
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: 16px;
