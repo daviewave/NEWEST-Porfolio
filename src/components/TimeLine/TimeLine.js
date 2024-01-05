@@ -69,9 +69,19 @@ const Timeline = () => {
   }, []);
 
   return (
-    <TimlineSection nopadding id="about">
-      <SectionDivider />
-      <SectionTitle timeline>How I Ended Up Here</SectionTitle>
+    <Section id="about">
+      <SectionTitle>How I Ended Up Here</SectionTitle>
+      <SectionText>
+        <strong style={{ fontSize: '1.2em', color: 'silver' }}>Education: </strong>  I earned an undergraduate Bachelor’s Degree in Neuroscience from the
+        University of Massachusetts Amherst in the Spring of 2021, and in
+        January of 2022 earned a certificate in full stack web development boot camp from
+        Columbia University. 
+        <br />
+        <br />
+        <strong style={{ fontSize: '1.2em', color: 'silver' }}>Professional Experience: </strong>After graduating, I secured my first professional role at Forum Systems, where I had the distinction of being the first full-time employee hired to contribute to their innovative AI-integrated healthcare application as a Full Stack Engineer. In this multifaceted role, I was involved in a wide range of tasks encompassing both front and back-end development. My responsibilities included front-end development using React.js for key features like risk analysis and legal analysis, as well as crafting REST API endpoints utilizing a Django backend. Additionally, I developed bash scripts for the efficient transfer of development and production builds onto Linux servers for on-premise installations. Collaborating closely with C-level executives, I played a pivotal role in the design and implementation of new application features. <br />
+        <br />
+        <strong style={{ fontSize: '1.2em', color: 'silver' }}>Professional Venture: </strong>After completing my studies, I launched my career at Forum Systems as the first full-time Full Stack Engineer for their AI-integrated healthcare application. In this role, I was responsible for a broad range of tasks including front-end React.js development, Django-based REST API creation, and Linux server management. My tenure there was marked by direct collaboration with C-level executives in feature design and implementation. Leveraging this experience, I founded Easy Covers Software, where I developed an innovative applicant tracking system featuring unique AI-integrated tools, distinguishing it from other products on the market. This project involved creating a speech-to-text pipeline with Kaldi ASR software and closely working with recruiters to ensure market fit. Additionally, I crafted a detailed 25-page business plan and multiple pitch decks to effectively communicate the product’s unique value proposition to various stakeholders.
+      </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         {/* TimeLineData was defined as a constant and imported above */}
         <>
@@ -142,7 +152,8 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-    </TimlineSection>
+      <SectionDivider />
+    </Section>
   );
 };
 
